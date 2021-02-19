@@ -26,7 +26,7 @@ describe('security', () => {
   })
   it('/offsets -> Project Wren', () => {
     cy.visit(`/offsets`)
-    cy.url().should('eq', 'https://projectwren.com/?utm_source=carbon')
+    cy.url().should('eq', 'https://www.wren.co/join/carbon?ref=wrenlink')
   })
   it('/privacy -> Privacy policy', () => {
     cy.visit(`/privacy`)
